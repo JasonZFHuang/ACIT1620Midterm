@@ -6,6 +6,7 @@ var main = document.getElementById("main");
 var gear1 = document.getElementById("gear1");
 var gear2 = document.getElementById("gear2");
 var gear3 = document.getElementById("gear3");
+var mcontents = document.getElementById("mcontents")
 
 bg1.addEventListener("click", function(){
     document.getElementById("title").innerHTML="Head Gear"
@@ -38,4 +39,10 @@ bg4.addEventListener("click", function(){
     gear2.src = "imgs/gears/f2.png";
     gear3.src = "imgs/gears/f3.png";
     main.style.display="block";
+});
+
+
+main.addEventListener("click", function(){
+    main.style.display="None";
+
 });
