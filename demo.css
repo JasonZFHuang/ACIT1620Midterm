@@ -1,0 +1,19 @@
+#demo {
+    width:70vw;
+    height:70vh;
+    text-align:center;
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+
+
+.clothes {
+    height:100%;
+    left:0px;
+    right:0px;
+}
+
+.boxes {
+    height:20%;
+}
